@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <h2 onclick="window.location.href='index.html'" alt="">MINICODELEADER</h2>
+                <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="blue">Join For Free</a></li>
+            </ul>
+            <svg id="menu-btn" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>        </div>
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs postpage">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Unlock the Secrets of Effective Web Design</h3>
+                <p>Unlocking the secrets of effective web design is like deciphering the essence of digital aesthetics.
+                    It's an intricate dance between art and functionality, aiming to create a harmonious balance that
+                    seamlessly blends visual appeal with user experience. Today's digital landscape is vast and
+                    ever-evolving, requiring designs that not only tell a brand's story compellingly but also ensure an
+                    intuitive user experience that captures and retains audience attention. Modern web design isn't just
+                    about aesthetics; it incorporates a blend of trending visuals and emerging technologies. Real-time
+                    cloud integration, responsive layouts, and user-centric interfaces have become the essential
+                    components of any successful website. Yet, an effective design goes beyond the surface. Beneath the
+                    vibrant colors and sleek graphics lies a robust framework designed for speed, performance, and
+                    compatibility. It's this intricate back-end work, often unseen by the casual observer, that
+                    determines a website's success. In this dynamic world of web design, where new trends and
+                    technologies constantly emerge, staying updated is crucial. However, the foundational principles of
+                    design remain timeless, guiding designers in their quest to craft impactful and effective digital
+                    spaces.
+                </p>
+                <a class="blue" href="#">Read Next ?</a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Your Email Address" id="">
+                <a class="yellow" href="#">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 Minicodeleader University. All rights reserved | Template designed by UOMCL.
+            </p>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+
+</body>
+
+</html>
